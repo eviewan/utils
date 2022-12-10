@@ -4,7 +4,7 @@
 ### Pandas 
  - change col name
  - subset with multiple conditions
- - not NA: df[df[col].notna()]
+ - not NA: `df[df[col].notna()]`
 
 
 
