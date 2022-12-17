@@ -1,9 +1,32 @@
-# Notes to self:
+# Note to self:
 <br/>
 
+
+### File manipulation
+- [FASTA](https://gist.github.com/eviewan/4dfda21739fe2a7b3f35d90d120316c2#file-fasta-sh)
+- [VCF](https://gist.github.com/eviewan/37ac21fac07276209e6ec9a741046291)
+
+
+
+### Docker related
+- Docker file: use `-O` tag to set file name (sometimes name error happens <br />
+    [example in hifiasm Dockerfile](https://gist.github.com/eviewan/6c9e4b1ba2a1cddbd8d9b1c2a3031a3e)
+
+
+### Git
+- permanantly delete pushed commits in remote: <br />
+    1) delete in local:  `git reset --hard {commit ID}`
+    2) `git push --force`
+<!-- - revert local commits (haven't been pushed)  -->
+
+
+
 ### Pandas 
- - change col name
- - subset with multiple conditions
+
+ - change col name: <br />
+    `df.rename(columns = {'oldName1':'newName1', 'oldName2':'newName2})`
+    
+ - [subset with multiple conditions](https://gist.github.com/eviewan/2f0f296eb11cf19a5d04764e1c755d0b) 
  - not NA: `df[df[col].notna()]`
 
 
@@ -13,4 +36,4 @@
 
 
 ### Plotting
-- [legend handling](https://gist.github.com/eviewan/c2948301e90a06ce9b61e0ff600bc739)
+- [Matplotlib legend handling](https://gist.github.com/eviewan/c2948301e90a06ce9b61e0ff600bc739)
