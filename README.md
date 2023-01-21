@@ -24,7 +24,7 @@
        git merge main (->> `git merge feature main`)
 
 - [merging vs rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
-    - both for incorporating new commits into feature branch
+    - `rebase` moves the entire branch to begin on the tip of `main`, rewrites history
 
 
 
