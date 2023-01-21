@@ -17,7 +17,14 @@
 - permanantly delete pushed commits in remote: <br />
     1) delete in local:  `git reset --hard {commit ID}`
     2) `git push --force`
-<!-- - revert local commits (haven't been pushed)  -->
+- merge: 
+    1) git checkout main <br />
+       git pull <br />
+       git checkout \<branch> <br />
+       git merge main (->> `git merge feature main`)
+
+- [merging vs rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
+    - both for incorporating new commits into feature branch
 
 
 
