@@ -25,6 +25,7 @@
 
 - [merging vs rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
     - `rebase` moves the entire branch to begin on the tip of `main`, rewrites history
+- [fast forward](https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci)
 
 
 
