@@ -17,9 +17,7 @@
 - permanantly delete pushed commits in remote: <br />
     1) delete in local:  `git reset --hard {commit ID}`
     2) `git push --force`
-- merge: 
-    1) git checkout main <br />
-       git pull <br />
+- merge: <br /> 
        git checkout \<branch> <br />
        git merge main (->> `git merge feature main`)
 
