@@ -26,6 +26,12 @@
 - [fast forward](https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci)
 
 
+### Conda
+- [conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+- commands: 
+    - `conda create --name \<myvenv> python=3.5` 
+    - `conda info --envs` (list conda virtualenv)
+
 
 ### Pandas 
 
