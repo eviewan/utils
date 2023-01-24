@@ -29,8 +29,10 @@
 ### Conda
 - [conda cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 - commands: 
-    - `conda create --name \<myvenv> python=3.5` 
+    - `conda create --name <myvenv> python=3.5` 
     - `conda info --envs` (list conda virtualenv)
+    - `conda env remove -n myenv`
+    - `conda env create -f environment.yml`
 
 
 ### Pandas 
