@@ -51,3 +51,8 @@
 
 ### Plotting
 - [Matplotlib legend handling](https://gist.github.com/eviewan/c2948301e90a06ce9b61e0ff600bc739)
+
+
+### SSH keys
+- `ssh-keygen -t rsa -b 4096`
+- add `id_rsa.pub` to Git
