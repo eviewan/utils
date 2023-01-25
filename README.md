@@ -33,7 +33,10 @@
     - `conda info --envs` (list conda virtualenv)
     - `conda env remove -n myenv`
     - `conda env create -f environment.yml`
-
+- [for hpc:](https://rabernat.medium.com/custom-conda-environments-for-data-science-on-hpc-clusters-32d58c63aa95)
+    - `wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh`
+    - `sh miniconda.sh -b -p $HOME/miniconda`
+    - `export PATH="$HOME/miniconda/bin:$PATH"`
 
 ### Pandas 
 
