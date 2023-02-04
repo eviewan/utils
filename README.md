@@ -59,3 +59,5 @@
 ### SSH keys
 - `ssh-keygen -t rsa -b 4096`
 - add `id_rsa.pub` to Git
+
+- `ssh-add ~/.ssh/id_rsa`
