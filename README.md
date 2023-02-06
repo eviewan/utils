@@ -61,3 +61,4 @@
 - add `id_rsa.pub` to Git
 
 - `ssh-add ~/.ssh/id_rsa`
+- if ssh key was removed from ssh agent: `ssh-add ~/.ssh/id_rsa`
