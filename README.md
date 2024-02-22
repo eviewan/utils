@@ -12,6 +12,9 @@
 - Docker file: use `-O` tag to set file name (sometimes name error happens <br />
     [example in hifiasm Dockerfile](https://gist.github.com/eviewan/6c9e4b1ba2a1cddbd8d9b1c2a3031a3e)
 
+### LSF
+- kill all jobs submitted under username: `bjobs -w -u <username> | awk '{print $1}' | tail -n +2 | xargs bkill`
+
 
 ### Git
 - permanantly delete pushed commits in remote: <br />
